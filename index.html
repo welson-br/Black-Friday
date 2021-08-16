@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Black<br><spam>Friday</spam></h2>
+        <div class="black"></div>  
+        
+    </section>
+    <script>
+        const black = document.querySelector('.black');
+        window.onmousemove = function(e){
+            const x = e.clientX;
+            black.style.left = x + 'px';
+        }
+    </script>
+    
+</body>
+</html>
